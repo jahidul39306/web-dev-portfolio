@@ -57,3 +57,91 @@
     margin-top: 32px;
     cursor: pointer;
 }
+/* web dev section */
+.web-dev{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 80px 0;
+    text-align: center;
+}
+.web-dev-header{
+    max-width: 852px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.web-dev-header > h2{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.web-dev-header > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+}
+.dev-container-1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 846px;
+    padding: 48px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.dev-text{
+    max-width: 477px;
+    text-align: left;
+}
+.dev-text > h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.dev-text > p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.dev-text > button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+}
+.dev-text > button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: white;
+    cursor: pointer;
+}
+
+.dev-container-2{
+    display: flex;
+    max-width: 846px;
+    padding: 48px;
+    margin: 32px auto;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    gap: 32px;
+}
